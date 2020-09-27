@@ -1,0 +1,50 @@
+/*
+Author : Khandaker Ehsanul Karim
+Date   : 27 September, 2020
+Time   : 16:13:19
+*/
+
+
+
+/* clear class */
+.clear {
+	clear: both
+}
+
+
+body {
+	/* background: url('../images/rag_wall.jpg'); */
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	/* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container {
+	background-color: black;
+	color: white;
+	/* width: 40%; */
+	/* font-family: 'Atma', cursive; */
+    font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	padding: 15px;
+	border-radius: 6px;
+}
+
+h1 {
+	float: left;
+	text-align: center;
+}
+
+nav {
+	float: right;
+}
+
+a {
+	color: aqua;
+	text-decoration: none;
+}
